@@ -8,8 +8,8 @@ class MainTest {
         val previousTransfers = 26_000L
         val currentTransfer = 300L
 
-        val result = calculateCommission(card,previousTransfers,currentTransfer)
-        assertEquals(0,result)
+        val result = calculateCommission(card, previousTransfers, currentTransfer)
+        assertEquals("Комиссия составит 0 рублей.", result)
 
     }
 
