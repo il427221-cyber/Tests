@@ -1,5 +1,5 @@
 fun main() {
-    val result = calculateCommission("Mastercard", 26_000, 300)
+    val result = calculateCommission("Visa", 80_000, 90_000)
     println(result)
 }
 
